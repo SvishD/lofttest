@@ -1,0 +1,25 @@
+@import "includes/_misc/fonts";
+
+// variables
+$container-width: 940px;
+$footer-height: 72px;
+$body-font: 'fira_sansregular', Helvetica, serif;
+
+//colors
+$black: #212121;
+$grey: #727272;
+$green: #8cc34b;
+$blue: #03a9f4;
+
+// base
+@import "includes/_misc/base";
+@import "includes/_misc/normalize";
+@import "includes/_misc/mixins";
+@import "includes/_misc/font-awesome";
+
+// sections
+@import "includes/sections/header";
+@import "includes/sections/section";
+@import "includes/sections/about";
+@import "includes/sections/courses";
+@import "includes/sections/footer";

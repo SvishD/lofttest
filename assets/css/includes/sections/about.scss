@@ -1,0 +1,36 @@
+.about__list {
+	@extend %clearfix;
+	margin-left: -5%;
+}
+
+.about__item {
+	float: left;
+	width: 45%;
+	margin-left: 5%;
+	@extend %clearfix;
+}
+
+.about__item-left, .about__item-right {
+	float: left;
+}
+
+.about__item-left {
+	width: 30%;
+	text-align: center;
+}
+
+.about__item-right {
+	width: 65%;
+	margin-left: 5%;
+}
+
+.about__title {
+	font-size: 21px;
+	color: #212121;
+	margin-bottom: 10px;
+}
+
+.about__item-svg {
+	display: inline-block;
+	max-width: 100%;
+}
